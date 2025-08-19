@@ -58,7 +58,6 @@ jobs:
             
             ### Features
             - Configure minecart speeds for different minecart types
-            - GUI configuration screen (Default key: M)
             - Command-line configuration with `/minecartspeed`
             - Per-world configuration storage
             - Real-time speed adjustments
