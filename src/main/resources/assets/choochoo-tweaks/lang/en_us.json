@@ -1,0 +1,23 @@
+{
+  "gui.choochoo-tweaks.config.title": "Minecart Speed Configuration",
+  "gui.choochoo-tweaks.config.instructions.operator": "Use sliders and text fields to configure speeds (0.0 - 10000.0) - Changes auto-save",
+  "gui.choochoo-tweaks.config.instructions.readonly": "View-only mode - You need operator permissions to modify speeds",
+  "gui.choochoo-tweaks.config.column.type": "Type",
+  "gui.choochoo-tweaks.config.column.slider": "Speed Slider",
+  "gui.choochoo-tweaks.config.column.value": "Value",
+  "gui.choochoo-tweaks.config.button.back": "Back",
+  "gui.choochoo-tweaks.config.button.reset": "Reset All",
+  "gui.choochoo-tweaks.config.button.refresh": "Refresh",
+  "gui.choochoo-tweaks.config.button.reset_feedback": "Reset!",
+  "gui.choochoo-tweaks.config.button.refresh_feedback": "Synced!",
+  "gui.choochoo-tweaks.config.field.speed": "Speed",
+  "gui.choochoo-tweaks.config.error.title": "Configuration Not Available",
+  "gui.choochoo-tweaks.config.error.not_in_world": "You must be in a world to configure minecart speeds.",
+  
+  "command.choochoo-tweaks.invalid_type": "Invalid minecart type: %s",
+  "command.choochoo-tweaks.valid_types": "Valid types: %s",
+  "command.choochoo-tweaks.set_speed": "Set speed for %s to %s",
+  "command.choochoo-tweaks.get_speed": "Speed for %s is %s",
+  "command.choochoo-tweaks.list_speeds": "Minecart Speeds:",
+  "command.choochoo-tweaks.reset_speeds": "Reset all minecart speeds to defaults (0.40)"
+}

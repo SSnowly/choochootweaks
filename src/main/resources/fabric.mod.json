@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "choochoo-tweaks",
+	"version": "${version}",
+	"name": "ChooChoo Tweaks",
+	"description": "A mod all about minecart speed",
+	"authors": [
+		"SSnowly"
+	],
+	"contact": {
+		"homepage": "https://github.com/SSnowly/choochootweaks",
+		"sources": "https://github.com/SSnowly/choochootweaks"
+	},
+	"license": "MIT",
+	"icon": "assets/choochoo-tweaks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"hu.snowylol.mctweaks.ChooChooTweaks"
+		],
+		"client": [
+			"hu.snowylol.mctweaks.ChooChooTweaksClient"
+		]
+	},
+	"mixins": [
+		"choochoo-tweaks.mixins.json",
+		{
+			"config": "choochoo-tweaks.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "1.21.7",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
